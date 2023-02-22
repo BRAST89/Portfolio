@@ -57,7 +57,7 @@
             <div class="fila">
 
                 <!-- intereses -->
-                <div class="col">
+                <!--<div class="col">
                     <h3>Intereses</h3>
                     <div class="contenedor-intereses">
                         <div class="interes">
@@ -90,12 +90,12 @@
                         </div>
                         
                     </div>
-                </div>
+                </div>-->
             </div>
-            <button>
+            <!--<button>
                 Descargar CV <i class="fa-solid fa-download"></i>
                 <span class="overlay"></span>
-            </button>
+            </button>--
         </div>
     </section>
 
@@ -139,26 +139,11 @@
                             </div>
                         </div>
                     </div>
-                    <div class="skill">
-                        <span>C#</span>
-                        <div class="barra-skill">
-                            <div class="progreso">
-                                <span>✓</span>
-                            </div>
-                        </div>
-                    </div>
+
                 </div>
                 <!-- Professional Skills -->
                 <div class="col">
                     <h3>Professional Skills</h3>
-                    <div class="skill">
-                        <span>Comunicación</span>
-                        <div class="barra-skill">
-                            <div class="progreso">
-                                <span>✓</span>
-                            </div>
-                        </div>
-                    </div>
                     <div class="skill">
                         <span>Trabajo en Equipo</span>
                         <div class="barra-skill">
@@ -268,18 +253,18 @@
                         <h3><a href="https://brast89.github.io/responsive-front-end/">Responsive Front end</a></h3>
                     </div>
                 </div>
-                <div class="proyecto">
+                <!--<div class="proyecto">
                     <img src="img/p5.jpg" alt="">
                     <div class="overlay">
                         <h3>Ruleta</h3>
                     </div>
-                </div>
+                </div> 
                 <div class="proyecto">
                     <img src="img/p6.jpg" alt="">
                     <div class="overlay">
                         <h3>Torneo futbol</h3>
                     </div>
-                </div>
+                </div> -->
             </div>
         </div>
     </section>
@@ -290,17 +275,22 @@
             <h2>CONTACTO</h2>
             <div class="fila">
                 <!-- Formulario -->
-                <div class="col">
-                    <input type="text" placeholder="Tú Nombre">
-                    <input type="text" placeholder="Número telefónico">
-                    <input type="text" placeholder="Dirección de correo">
-                    <input type="text" placeholder="Tema">
-                    <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
-                    <button>
-                        Enviar Mensaje<i class="fa-solid fa-paper-plane"></i>
-                        <span class="overlay"></span>
-                    </button>
-                </div>
+                <form action="https://formsubmit.co/brastduranvasquez@gmail.com" method="POST">
+                    <div class="col">
+                        <input name="name" id="name" type="text" placeholder="Tú Nombre">
+                        <input name="phone" id="phone" type="text" placeholder="Número telefónico">
+                        <input name="email" id="email" type="text" placeholder="Dirección de correo">
+                        <input name="issue" id="issue" type="text" placeholder="Tema">
+                        <textarea name="message" id="message" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                        <button type="submit" class="btnsubmit">
+                            Enviar Mensaje<i class="fa-solid fa-paper-plane"></i>
+                            <span class="overlay"></span>
+                        </button>
+
+                        <input type="hidden" name="_next" value="https://brast89.github.io/Portfolio/">
+                        <input type="hidden" name="_captcha" value="false">
+                    </div>
+                </form>
                 <!-- Mapa -->
                 <div class="col">
                     <img src="#" alt="">
