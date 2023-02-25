@@ -11,11 +11,9 @@ html{
 }
 /* MENU */
 .video{
-    
     object-fit: cover;
     width: 100%;
-    min-height: 100%;
-    z-index: -1;
+    height: 100%;
 }
 .contenedor-header{
     background: #1e2326;
