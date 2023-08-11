@@ -551,7 +551,7 @@ html{
     display: flex;
 }
 .contacto .col{
-    width: 50%;
+    width: 80%;
     padding: 10px;
     position: relative;
 }
@@ -599,7 +599,7 @@ html{
     top: 40%;
     background-color: #252A2E;
     padding: 10px 10px;
-    width: 70%;
+    width: 50%;
     left: 50%;
     margin: 10px;
     transform: translate(-50%, -50%);
