@@ -598,10 +598,10 @@ html{
     position: absolute;
     top: 40%;
     background-color: #252A2E;
-    padding: 20px;
+    padding: 10px 10px;
     width: 70%;
-    height: 30%;
     left: 50%;
+    margin: 10px;
     transform: translate(-50%, -50%);
 }
 .contacto .col .info ul{
@@ -609,6 +609,7 @@ html{
 }
 .contacto .col .info ul li{
     margin-bottom: 20px;
+
 }
 .contacto .col .info ul li i{
     color: #1CB698;
